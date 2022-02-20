@@ -41,8 +41,8 @@ def test_assert_accepts_bool():
 
         Если в bool записана истина, то всё работает.
     """
-    a = 3 < __  # укажите любое число, чтобы в a было True
-    assert a
+    a = 3 < 4  # укажите любое число, чтобы в a было True
+    assert a = True
 
 
 def test_can_use_not():
